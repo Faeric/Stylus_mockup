@@ -1,0 +1,29 @@
+#banner {
+  background-image: image-url("background.jpg");
+  padding: 150px 0;
+  color: white;
+  background-size: cover;
+  font-size: 25px;
+  padding-left: 50px;
+  h1 {
+    font-family: $my-font;
+    font-size: 70px;
+    color: white;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 100;
+  }
+}
+
+.testimonial {
+  background-color: white;
+  padding: 40px;
+  margin: 15px;
+  border-radius: 4px;
+  height: 290px;
+  box-shadow: 1px 1px 3px rgba(202,202,202,1);
+  img {
+    width: 140px;
+  }
+}

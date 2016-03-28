@@ -1,0 +1,84 @@
+#blue-banner {
+  font-family: $css-font !important;
+  font-weight: 100;
+  background: #3079AB;
+  position: relative;
+  color: white;
+  padding: 100px 50px;
+  height: 400px;
+  h1 {
+    font-family: $css-font !important;
+    font-weight: 300;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 100;
+    opacity: 0.8;
+  }
+  i {
+    position: absolute;
+    font-size: 50px;
+    width: 100px;
+    text-align: center;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+  }
+}
+
+#address {
+  position: relative;
+  width: 300px;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -150px;
+  color: #FA5656;
+  i {
+    font-size: 60px;
+  }
+}
+
+@keyframes fadeInAndSlideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInAndSlideDown {
+ 0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
+@-moz-keyframes fadeInAndSlideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
+.fadeInAndSlideDown {
+  transform: translateY(-100%);
+  opacity: 0;
+  animation: fadeInAndSlideDown 2s 0.5s ease forwards;
+  -webkit-animation: fadeInAndSlideDown 2s 0.5s ease forwards;
+  -moz-animation: fadeInAndSlideDown 2s 0.5s ease forwards;
+}
